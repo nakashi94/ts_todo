@@ -33,6 +33,21 @@ const Login: React.FC = (props: any) => {
         />
       </FormControl>
       <br />
+      <FormControl>
+        <TextField
+          InputLabelProps={{
+            shrink: true,
+          }}
+          name="password"
+          label="Password"
+          type="password"
+          value={password}
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+            setPassword(e.target.value);
+          }}
+        />
+      </FormControl>
+      <br />
       <Button
         variant="contained"
         color="primary"
