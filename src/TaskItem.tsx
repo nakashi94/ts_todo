@@ -37,10 +37,10 @@ const TaskItem: React.FC<PROPS> = (props) => {
           }
         />
       </Grid>
-      <button className={styles.taskitem_icon} onClick={editTask}>
+      <button className={styles.taskitem__icon} onClick={editTask}>
         <EditOutlinedIcon />
       </button>
-      <button className={styles.taskitem_icon} onClick={deleteTask}>
+      <button className={styles.taskitem__icon} onClick={deleteTask}>
         <DeleteOutlineOutlinedIcon />
       </button>
     </ListItem>
